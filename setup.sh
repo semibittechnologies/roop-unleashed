@@ -17,7 +17,7 @@ apt-get install -y libgl1-mesa-glx
 #     python3.11 get-pip.py && \
 #     rm get-pip.py
 
-apt-get install htop   
+apt-get install -y htop   
 mkdir /ffmpeg
 cd /ffmpeg && wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz && unxz ffmpeg-release-amd64-static.tar.xz && tar -xvf ffmpeg-release-amd64-static.tar 
 export PATH=/ffmpeg/ffmpeg-7.0.1-amd64-static:$PATH

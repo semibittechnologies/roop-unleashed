@@ -23,6 +23,8 @@ cd /ffmpeg && wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd6
 export PATH=/ffmpeg/ffmpeg-7.0.1-amd64-static:$PATH
 
 python --version
+pip show torch
+pip show torchvision
 cd /root/roop-unleashed
 mkdir inputs
 mkdir outputs

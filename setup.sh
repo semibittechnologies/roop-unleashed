@@ -7,6 +7,10 @@ add-apt-repository ppa:deadsnakes/ppa -y && \
 apt-get install -y python3.11 python3.11-venv python3.11-dev libgl1-mesa-glx screen
 ln -sf /usr/bin/python3.11 /usr/bin/python && \
     ln -sf /usr/bin/python3.11 /usr/bin/python3
+
+ln -sf /usr/bin/python3.11 /opt/conda/bin/python && \
+    ln -sf /usr/bin/python3.11 /opt/conda/bin/python3
+    
 wget https://bootstrap.pypa.io/get-pip.py && \
     python3.11 get-pip.py && \
     rm get-pip.py

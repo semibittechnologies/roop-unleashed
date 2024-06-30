@@ -1,6 +1,7 @@
 # echo pytorch/pytorch:2.1.2-cuda11.8-cudnn8-devel
 # echo https://cloud.vast.ai/?ref_id=143095&template_id=f3db7d14eea13e128908b36395688679
 
+# Latest: https://cloud.vast.ai/templates/edit?templateHashId=59c8b73967e217815f5b99ea5d80d2a5
 
 
 apt-get install -y libgl1-mesa-glx

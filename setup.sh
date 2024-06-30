@@ -1,3 +1,4 @@
+# echo pytorch/pytorch:2.1.2-cuda11.8-cudnn8-devel
 add-apt-repository ppa:deadsnakes/ppa && \
     apt-get update
 

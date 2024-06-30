@@ -1,6 +1,6 @@
 # echo pytorch/pytorch:2.1.2-cuda11.8-cudnn8-devel
 # echo https://cloud.vast.ai/?ref_id=143095&template_id=f3db7d14eea13e128908b36395688679
-add-apt-repository ppa:deadsnakes/ppa && \
+add-apt-repository ppa:deadsnakes/ppa -y && \
     apt-get update
 
 

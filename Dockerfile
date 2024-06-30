@@ -18,7 +18,7 @@ RUN add-apt-repository ppa:deadsnakes/ppa && \
 
 # Install Python 3.11 and pip
 # Install Python 3.11 and development packages
-RUN apt-get install -y python3.11 python3.11-venv python3.11-dev libgl1-mesa-glx
+RUN apt-get install -y python3.11 python3.11-venv python3.11-dev libgl1-mesa-glx ffmpeg
 
 # Download and install the latest pip using get-pip.py
 RUN wget https://bootstrap.pypa.io/get-pip.py && \

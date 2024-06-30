@@ -2,27 +2,24 @@
 # echo https://cloud.vast.ai/?ref_id=143095&template_id=f3db7d14eea13e128908b36395688679
 
 # Latest: https://cloud.vast.ai/templates/edit?templateHashId=59c8b73967e217815f5b99ea5d80d2a5
-# 11329799
-# Age:
-# 8m 23s
-# Remaining:
-# 3 days
+# 11329925
 # Poland, PL
-# 1x RTX A400020.6  TFLOPS
-# m:18119
+# 2x RTX A400041.3  TFLOPS
+# m:18551
 # host:78246
 # verified
-# 0.3/16.0 GB
-# 362.5 GB/s
-# B550
-# PCIE 4.0, 16x
-# 24.8 GB/s
-# AMD Ryzen 5 5600X 6-Core Processor
-# 6.0/12 cpu
-# 0/16 GB
-# PNY CS3140 1TB SSD
-# 1273 MB/s4.0/30.3 GB
-# 534.0 Mbps347.1 MbpsMax CUDA: 12.2
+# 1.6/32.0 GB
+# 364.1 GB/s
+# PRIME B365
+# PCIE 3.0, 16x
+# 12.4 GB/s
+# Pentium® Gold G5420
+# 4.0/4 cpu
+# 2/32 GB
+# Lexar SSD NM620 1TB
+# 553 MB/s6.0/30.3 GB
+# 594.9 Mbps350.4 MbpsMax CUDA: 12.2
+
 
 
 

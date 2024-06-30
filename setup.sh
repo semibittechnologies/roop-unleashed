@@ -4,8 +4,9 @@
 # add-apt-repository ppa:deadsnakes/ppa -y && \
 #     apt-get update
 
+apt-get install -y libgl1-mesa-glx
 
-# apt-get install -y python3.11 python3.11-venv python3.11-dev libgl1-mesa-glx screen
+# apt-get install -y python3.11 python3.11-venv python3.11-dev
 # ln -sf /usr/bin/python3.11 /usr/bin/python && \
 #     ln -sf /usr/bin/python3.11 /usr/bin/python3
 

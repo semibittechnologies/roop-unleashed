@@ -16,4 +16,5 @@ export PATH=/ffmpeg/ffmpeg-7.0.1-amd64-static:$PATH
 mkdir inputs
 mkdir outputs
 python --version
+cd /root/roop-unleashed
 pip3 install -r gpu-requirements.txt

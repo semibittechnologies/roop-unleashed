@@ -5,7 +5,7 @@ colorFrom: gray
 colorTo: pink
 sdk: gradio
 sdk_version: 3.35.2
-app_file: app.py
+app_file: run.py
 pinned: false
 license: agpl-3.0
 duplicated_from: ezioruan/roop

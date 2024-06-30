@@ -17,8 +17,9 @@ wget https://bootstrap.pypa.io/get-pip.py && \
 mkdir /ffmpeg
 cd /ffmpeg && wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz && unxz ffmpeg-release-amd64-static.tar.xz && tar -xvf ffmpeg-release-amd64-static.tar 
 export PATH=/ffmpeg/ffmpeg-7.0.1-amd64-static:$PATH
-mkdir inputs
-mkdir outputs
+
 python --version
 cd /root/roop-unleashed
+mkdir inputs
+mkdir outputs
 pip3 install -r gpu-requirements.txt

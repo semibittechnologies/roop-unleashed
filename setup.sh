@@ -2,6 +2,28 @@
 # echo https://cloud.vast.ai/?ref_id=143095&template_id=f3db7d14eea13e128908b36395688679
 
 # Latest: https://cloud.vast.ai/templates/edit?templateHashId=59c8b73967e217815f5b99ea5d80d2a5
+# 11329799
+# Age:
+# 8m 23s
+# Remaining:
+# 3 days
+# Poland, PL
+# 1x RTX A400020.6  TFLOPS
+# m:18119
+# host:78246
+# verified
+# 0.3/16.0 GB
+# 362.5 GB/s
+# B550
+# PCIE 4.0, 16x
+# 24.8 GB/s
+# AMD Ryzen 5 5600X 6-Core Processor
+# 6.0/12 cpu
+# 0/16 GB
+# PNY CS3140 1TB SSD
+# 1273 MB/s4.0/30.3 GB
+# 534.0 Mbps347.1 MbpsMax CUDA: 12.2
+
 
 
 apt-get install -y libgl1-mesa-glx

@@ -18,7 +18,8 @@ Check out the configuration reference at https://huggingface.co/docs/hub/spaces-
 Use image `pytorch/pytorch:2.2.0-cuda11.8-cudnn8-runtime  2.2.0-cuda11.8-cudnn8-runtime`
 
 ```
-apt-get install -y htop screen jupyterlab 
+apt-get install -y htop screen
+pip install jupyterlab 
 git clone https://github.com/semibittechnologies/roop-unleashed
 screen
 ```

@@ -13,6 +13,9 @@ duplicated_from: ezioruan/roop
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 
+## Vast AI
+
+Use image `pytorch/pytorch:2.2.0-cuda11.8-cudnn8-runtime  2.2.0-cuda11.8-cudnn8-runtime`
 
 ```
 apt-get install -y htop screen jupyterlab 

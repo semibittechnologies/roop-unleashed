@@ -12,3 +12,10 @@ duplicated_from: ezioruan/roop
 ---
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+
+
+```
+apt-get install -y htop screen jupyterlab 
+git clone https://github.com/semibittechnologies/roop-unleashed
+screen
+```

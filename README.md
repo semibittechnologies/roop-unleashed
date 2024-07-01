@@ -22,4 +22,5 @@ apt-get install -y htop screen & pip install jupyterlab  & git clone https://git
 screen
 
 jupyter lab --allow-root & sleep 2 && jupyter lab list
+sh setup.sh
 ```

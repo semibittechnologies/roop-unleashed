@@ -22,4 +22,6 @@ apt-get install -y htop screen
 pip install jupyterlab 
 git clone https://github.com/semibittechnologies/roop-unleashed
 screen
+
+jupyter lab --allow-root & sleep 2 && jupyter lab list
 ```

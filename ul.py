@@ -47,6 +47,7 @@ def download_video(url, filename):
                 f.write(chunk)
 
 def upload_to_firebase(local_file_path, firebase_storage_path):
+    print(f"Uploading {local_file_path} to {firebase_storage_path}")
     # Replace this with your Firebase project's API key and storage path
     firebase_api_key = "XXXXX"
     filename = os.path.basename(local_file_path)

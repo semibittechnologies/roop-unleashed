@@ -29,6 +29,9 @@ from roop.ProcessMgr import ProcessMgr
 from roop.ProcessOptions import ProcessOptions
 from roop.capturer import get_video_frame_total
 
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from ul import upload_to_firebase
+
 
 clip_text = None
 
@@ -347,7 +350,7 @@ def batch_process(files:list[ProcessEntry], use_new_method) -> None:
                     else:
                         shutil.move(video_file_name, destination)
                 update_status(f'\nProcessing {os.path.basename(destination)} took {time() - start_processing} secs')
-
+                upload_to_firebase(destination, 'outputs')
             else:
                 update_status(f'Failed processing {os.path.basename(v.finalname)}!')
     end_processing('Finished')

@@ -18,9 +18,9 @@ Check out the configuration reference at https://huggingface.co/docs/hub/spaces-
 Use image `pytorch/pytorch:2.2.0-cuda11.8-cudnn8-runtime  2.2.0-cuda11.8-cudnn8-runtime`
 
 ```
-apt-get install -y htop screen & pip install jupyterlab  & git clone https://github.com/semibittechnologies/roop-unleashed
+apt-get install -y htop screen && pip install jupyterlab  && git clone https://github.com/semibittechnologies/roop-unleashed
 screen
 
-jupyter lab --allow-root & sleep 2 && jupyter lab list
+jupyter lab --allow-root && sleep 2 && jupyter lab list
 sh setup.sh
 ```

@@ -34,7 +34,6 @@ def get_post_info(url):
             # Download the video
             filename = f"./inputs/{postId}.mp4"
             download_video(highest_resolution_url, filename)
-            print(f"Downloaded highest resolution video to: {filename}")
         else:
             print("No video found in the response")
     else:
@@ -46,6 +45,8 @@ def download_video(url, filename):
         with open(filename, 'wb') as f:
             for chunk in r.iter_content(chunk_size=8192):
                 f.write(chunk)
+    print(f"Downloaded highest resolution video to: {filename}")
+
 
 def upload_to_firebase(local_file_path, firebase_storage_path):
     print(f"Uploading {local_file_path} to {firebase_storage_path}")

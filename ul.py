@@ -1,6 +1,7 @@
 import sys
 import requests
 import os
+from urllib.parse import urlparse;
 
 def get_post_info(url):
     # Extract postId from the URL
@@ -73,7 +74,8 @@ if __name__ == "__main__":
         
         if input_path.startswith("http"):
             # It's an Instagram URL
-            get_post_info(input_path)
+            filename = os.path.basename(urlparse(input_path).path)
+            download_video(input_path, f"./inputs/{filename}")
         else:
             # It's a local file path
             upload_to_firebase(input_path, 'outputs')

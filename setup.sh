@@ -50,4 +50,4 @@ cd /root/roop-unleashed
 mkdir inputs
 mkdir outputs
 pip3 install -r gpu-requirements.txt
-python run.py
+# python run.py

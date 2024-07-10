@@ -21,4 +21,6 @@ screen
 
 jupyter lab --allow-root && sleep 2 && jupyter lab list
 sh setup.sh
+export PATH=/ffmpeg/ffmpeg-7.0.1-amd64-static:$PATH
+python run.py
 ```

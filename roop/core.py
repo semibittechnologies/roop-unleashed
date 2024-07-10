@@ -375,6 +375,7 @@ def run(onlySetup) -> None:
         return
     if onlySetup:
         print("Setup Completed")
+        return
     roop.globals.CFG = Settings('config.yaml')
     roop.globals.execution_threads = roop.globals.CFG.max_threads
     roop.globals.video_encoder = roop.globals.CFG.output_video_codec

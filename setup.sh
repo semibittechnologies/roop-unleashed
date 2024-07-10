@@ -52,4 +52,4 @@ mkdir inputs
 mkdir outputs
 pip3 install -r gpu-requirements.txt
 
-jupyter lab --ip='*' --NotebookApp.token='' --NotebookApp.password='' & python run.py
+jupyter lab --ip='*' --NotebookApp.token='' --NotebookApp.password='' & python setup.py

@@ -38,7 +38,8 @@
 #     python3.11 get-pip.py && \
 #     rm get-pip.py
 
-apt-get install -y htop screen && pip install jupyterlab libgl1-mesa-glx 
+apt-get install -y htop screen libgl1-mesa-glx
+pip install jupyterlab 
 mkdir /ffmpeg
 cd /ffmpeg && wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz && unxz ffmpeg-release-amd64-static.tar.xz && tar -xvf ffmpeg-release-amd64-static.tar 
 export PATH=/ffmpeg/ffmpeg-7.0.1-amd64-static:$PATH

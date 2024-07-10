@@ -23,7 +23,7 @@
 
 
 
-apt-get install -y libgl1-mesa-glx
+
 # apt-get install -y gcc g++
 
 # add-apt-repository ppa:deadsnakes/ppa -y &&  apt-get update
@@ -38,7 +38,8 @@ apt-get install -y libgl1-mesa-glx
 #     python3.11 get-pip.py && \
 #     rm get-pip.py
 
-apt-get install -y htop   
+apt-get install -y htop screen && pip install jupyterlab  && git clone https://github.com/semibittechnologies/roop-unleashed
+apt-get install -y htop libgl1-mesa-glx
 mkdir /ffmpeg
 cd /ffmpeg && wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz && unxz ffmpeg-release-amd64-static.tar.xz && tar -xvf ffmpeg-release-amd64-static.tar 
 export PATH=/ffmpeg/ffmpeg-7.0.1-amd64-static:$PATH
@@ -50,4 +51,5 @@ cd /root/roop-unleashed
 mkdir inputs
 mkdir outputs
 pip3 install -r gpu-requirements.txt
-# python run.py
+
+# jupyter lab --ip='*' --NotebookApp.token='' --NotebookApp.password='' & python run.py

@@ -369,10 +369,12 @@ def destroy() -> None:
     sys.exit()
 
 
-def run() -> None:
+def run(onlySetup) -> None:
     parse_args()
     if not pre_check():
         return
+    if onlySetup:
+        print("Setup Completed")
     roop.globals.CFG = Settings('config.yaml')
     roop.globals.execution_threads = roop.globals.CFG.max_threads
     roop.globals.video_encoder = roop.globals.CFG.output_video_codec

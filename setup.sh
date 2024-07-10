@@ -51,5 +51,6 @@ cd /root/roop-unleashed
 mkdir inputs
 mkdir outputs
 pip3 install -r gpu-requirements.txt
+python setup.py
 
-jupyter lab --ip='*' --NotebookApp.token='' --NotebookApp.password='' & python setup.py
+jupyter lab --ip='*' --NotebookApp.token='' --NotebookApp.password='' 

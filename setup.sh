@@ -30,7 +30,7 @@
  
 apt-get update
 apt-get install -y htop screen libgl1-mesa-glx wget  
-DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get -y install libglib2.0-0 libsm6 libxrender1 libxext6
+# DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt-get -y install libglib2.0-0 libsm6 libxrender1 libxext6
 pip install jupyterlab 
 mkdir /ffmpeg
 cd /ffmpeg && wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz && unxz ffmpeg-release-amd64-static.tar.xz && tar -xvf ffmpeg-release-amd64-static.tar 

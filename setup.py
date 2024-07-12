@@ -6,10 +6,10 @@ import urllib
 from tqdm import tqdm
 
 
-def resolve_relative_path(path: str) -> str:
+def resolve_relative_path(path) -> str:
     return os.path.abspath(os.path.join(os.path.dirname(__file__), path))
 
-def conditional_download(download_directory_path: str, urls: List[str]) -> None:
+def conditional_download(download_directory_path, urls) -> None:
     if not os.path.exists(download_directory_path):
         os.makedirs(download_directory_path)
     for url in urls:

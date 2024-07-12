@@ -26,24 +26,10 @@
 # 52.0 Mbps456.4 MbpsMax CUDA: 12.2
 # GPU: 0% 30C , CPU: 33% Status: success, running pytorch/pytorch_2.1.2-cuda11.8-cudnn8-devel/ssh
 
-
-
-
-
 # apt-get install -y gcc g++
-
-# add-apt-repository ppa:deadsnakes/ppa -y &&  apt-get update
-# apt-get install -y python3.11 python3.11-venv python3.11-dev
-# ln -sf /usr/bin/python3.11 /usr/bin/python && \
-#     ln -sf /usr/bin/python3.11 /usr/bin/python3
-
-# ln -sf /usr/bin/python3.11 /opt/conda/bin/python && \
-#     ln -sf /usr/bin/python3.11 /opt/conda/bin/python3
-    
-# wget https://bootstrap.pypa.io/get-pip.py && \
-#     python3.11 get-pip.py && \
-#     rm get-pip.py
-
+ 
+add-apt-repository universe
+apt-get update
 apt-get install -y htop screen libgl1-mesa-glx
 # pip install jupyterlab 
 # mkdir /ffmpeg

@@ -15,5 +15,5 @@ EXPOSE 7860
 EXPOSE 7861
 EXPOSE 8888
 # Command to run JupyterLab and the Python script on startup
-CMD jupyter lab --ip='*' --NotebookApp.token='' --NotebookApp.password='' --allow-root
+CMD jupyter lab --ip='*' --NotebookApp.token='' --NotebookApp.password='' --NotebookApp.allow_origin=* --allow-root
  # & python run.py

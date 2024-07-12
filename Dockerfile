@@ -9,6 +9,8 @@ WORKDIR /root/roop-unleashed
 # Run the setup.sh script
 RUN chmod +x setup.sh && ./setup.sh
 RUN export PATH=/ffmpeg/ffmpeg-7.0.1-amd64-static:$PATH
- 
+EXPOSE 7860
+EXPOSE 7861
+EXPOSE 8888
 # Command to run JupyterLab and the Python script on startup
 CMD jupyter lab --ip='*' --NotebookApp.token='' --NotebookApp.password='' & python run.py

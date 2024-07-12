@@ -2,7 +2,8 @@
 import os
 import sys
 import shutil
-import urllib
+import urllib.request as urllib
+
 from tqdm import tqdm
 
 

@@ -2,7 +2,8 @@
 import os
 import sys
 import shutil
-import urllib.request as urllib
+import urllib as urllib
+import urllib.request as request
 
 from tqdm import tqdm
 
@@ -18,8 +19,8 @@ def conditional_download(download_directory_path, urls) -> None:
             download_directory_path, os.path.basename(url)
         )
         if not os.path.exists(download_file_path):
-            request = urllib.request.urlopen(url)  # type: ignore[attr-defined]
-            total = int(request.headers.get("Content-Length", 0))
+            req = request.urlopen(url)  # type: ignore[attr-defined]
+            total = int(req.headers.get("Content-Length", 0))
             with tqdm(
                 total=total,
                 desc=f"Downloading {url}",
@@ -27,7 +28,7 @@ def conditional_download(download_directory_path, urls) -> None:
                 unit_scale=True,
                 unit_divisor=1024,
             ) as progress:
-                urllib.request.urlretrieve(url, download_file_path, reporthook=lambda count, block_size, total_size: progress.update(block_size))  # type: ignore[attr-defined]
+                request.urlretrieve(url, download_file_path, reporthook=lambda count, block_size, total_size: progress.update(block_size))  # type: ignore[attr-defined]
 
 def pre_check() -> bool:
     if sys.version_info < (3, 9):

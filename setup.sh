@@ -59,4 +59,4 @@ mkdir outputs
 pip3 install -r gpu-requirements.txt
 python setup.py
 
-jupyter lab --ip='*' --NotebookApp.token='' --NotebookApp.password='' --allow-root
+# jupyter lab --ip='*' --NotebookApp.token='' --NotebookApp.password='' --allow-root

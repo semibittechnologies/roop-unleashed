@@ -45,17 +45,17 @@
 #     rm get-pip.py
 
 apt-get install -y htop screen libgl1-mesa-glx
-pip install jupyterlab 
-mkdir /ffmpeg
-cd /ffmpeg && wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz && unxz ffmpeg-release-amd64-static.tar.xz && tar -xvf ffmpeg-release-amd64-static.tar 
-export PATH=/ffmpeg/ffmpeg-7.0.1-amd64-static:$PATH
+# pip install jupyterlab 
+# mkdir /ffmpeg
+# cd /ffmpeg && wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz && unxz ffmpeg-release-amd64-static.tar.xz && tar -xvf ffmpeg-release-amd64-static.tar 
+# export PATH=/ffmpeg/ffmpeg-7.0.1-amd64-static:$PATH
 
-python --version
-pip show torch
-pip show torchvision
-cd /root/roop-unleashed
-mkdir inputs
-mkdir outputs
+# python --version
+# pip show torch
+# pip show torchvision
+# cd /root/roop-unleashed
+# mkdir inputs
+# mkdir outputs
 # pip3 install -r gpu-requirements.txt
 # python setup.py
 

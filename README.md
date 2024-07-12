@@ -10,6 +10,7 @@ pinned: false
 ## Docker
 ```
 docker run -p 8888:8888 semibit/roop-unleashed:latest
+jupyter lab --ip='*' --NotebookApp.token='' --NotebookApp.password='' --NotebookApp.allow_origin='*' --allow-root
 ```
 Open http://localhost:8888
 

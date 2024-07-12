@@ -19,7 +19,7 @@ export PATH=/ffmpeg/ffmpeg-7.0.1-amd64-static:$PATH
 python run.py
 ```
 
-Local inputs `/root/root-unleashed/inputs`
+Local inputs `/root/roop-unleashed/inputs`
 
 ## Vast AI
 

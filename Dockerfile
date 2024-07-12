@@ -9,6 +9,7 @@ WORKDIR /root/roop-unleashed
 # Run the setup.sh script
 RUN export PATH=/ffmpeg/ffmpeg-7.0.1-amd64-static:$PATH
 RUN chmod +x setup.sh && ./setup.sh
+RUN export PATH=/ffmpeg/ffmpeg-7.0.1-amd64-static:$PATH
 
 EXPOSE 7860
 EXPOSE 7861

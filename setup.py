@@ -28,6 +28,7 @@ def pre_check() -> bool:
     util.conditional_download(download_directory_path, ['https://huggingface.co/countfloyd/deepfake/resolve/main/lsdir_x4.onnx'])
     if not shutil.which('ffmpeg'):
        update_status('ffmpeg is not installed.')
-    print("ffmpeg path:")
+    print('ffmpeg path:')
     print(str(shutil.which('ffmpeg')))
+    print('Setup Completed')
     return True

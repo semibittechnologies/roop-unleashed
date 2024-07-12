@@ -28,20 +28,20 @@
 
 # apt-get install -y gcc g++
  
-# apt-get update
-# apt-get install -y htop screen libgl1-mesa-glx wget
-# pip install jupyterlab 
-# mkdir /ffmpeg
-# cd /ffmpeg && wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz && unxz ffmpeg-release-amd64-static.tar.xz && tar -xvf ffmpeg-release-amd64-static.tar 
-# export PATH=/ffmpeg/ffmpeg-7.0.1-amd64-static:$PATH
+apt-get update
+apt-get install -y htop screen libgl1-mesa-glx wget
+pip install jupyterlab 
+mkdir /ffmpeg
+cd /ffmpeg && wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz && unxz ffmpeg-release-amd64-static.tar.xz && tar -xvf ffmpeg-release-amd64-static.tar 
+export PATH=/ffmpeg/ffmpeg-7.0.1-amd64-static:$PATH
 
-# python --version
-# pip show torch
-# pip show torchvision
-# cd /root/roop-unleashed
-# mkdir inputs
-# mkdir outputs
-pip3 install -r min-requirements.txt
+python --version
+pip show torch
+pip show torchvision
+cd /root/roop-unleashed
+mkdir inputs
+mkdir outputs
+pip3 install -r gpu-requirements.txt
 python setup.py
 
 # jupyter lab --ip='*' --NotebookApp.token='' --NotebookApp.password='' --allow-root

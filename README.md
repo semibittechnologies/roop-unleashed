@@ -19,6 +19,8 @@ export PATH=/ffmpeg/ffmpeg-7.0.1-amd64-static:$PATH
 python run.py
 ```
 
+Local inputs `/root/root-unleashed/inputs`
+
 ## Vast AI
 
 Use image `pytorch/pytorch:2.2.0-cuda11.8-cudnn8-runtime  2.2.0-cuda11.8-cudnn8-runtime`

@@ -7,9 +7,17 @@ sdk: docker
 pinned: false
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+## Docker
+```
+docker run -p 8888:8888 semibit/roop-unleashed:latest
+```
+Open http://localhost:8888
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+In jupyterlab run
+```
+export PATH=/ffmpeg/ffmpeg-7.0.1-amd64-static:$PATH
+python run.py
+```
 
 ## Vast AI
 

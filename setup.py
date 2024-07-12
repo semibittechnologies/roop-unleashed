@@ -2,6 +2,8 @@
 import os
 import sys
 import shutil
+import shutil
+import roop.utilities as util
 
 def pre_check() -> bool:
     if sys.version_info < (3, 9):

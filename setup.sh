@@ -30,7 +30,7 @@
  
 add-apt-repository universe
 apt-get update
-apt-get install -y htop screen libgl1-mesa-glx
+apt-get install -y htop screen libgl1-mesa-glx wget
 pip install jupyterlab 
 mkdir /ffmpeg
 cd /ffmpeg && wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz && unxz ffmpeg-release-amd64-static.tar.xz && tar -xvf ffmpeg-release-amd64-static.tar 

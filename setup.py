@@ -3,7 +3,6 @@ import os
 import sys
 import shutil
 import urllib
-import roop.utilities as util
 from tqdm import tqdm
 
 

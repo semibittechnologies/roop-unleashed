@@ -32,3 +32,5 @@ def pre_check() -> bool:
     print(str(shutil.which('ffmpeg')))
     print('Setup Completed')
     return True
+    
+pre_check()

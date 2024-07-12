@@ -28,7 +28,6 @@
 
 # apt-get install -y gcc g++
  
-add-apt-repository universe
 apt-get update
 apt-get install -y htop screen libgl1-mesa-glx wget
 pip install jupyterlab 

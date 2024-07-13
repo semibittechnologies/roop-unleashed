@@ -17,6 +17,7 @@ Open http://localhost:8888
 In jupyterlab run
 ```
 export PATH=/ffmpeg/ffmpeg-7.0.1-amd64-static:$PATH
+echo Please update the creds in ul.py
 python run.py
 ```
 

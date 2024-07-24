@@ -21,6 +21,8 @@ echo Please update the creds in ul.py
 python run.py
 ```
 
+Open http://localhost:7860
+
 Local inputs `/root/roop-unleashed/inputs`
 
 ## Vast AI
